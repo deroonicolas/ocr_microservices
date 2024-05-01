@@ -1,0 +1,12 @@
+package com.ecommerce.micrommerce.web.exception;
+
+public class ProduitIntrouvableException extends RuntimeException {
+	/**
+	* 
+	*/
+	private static final long serialVersionUID = 1L;
+
+	public ProduitIntrouvableException(String s) {
+		super(s);
+	}
+}

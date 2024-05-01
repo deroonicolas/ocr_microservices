@@ -1,0 +1,7 @@
+package com.ecommerce.micrommerce.web.exception;
+
+public class ProduitIntrouvableException extends RuntimeException {
+	   public ProduitIntrouvableException(String s) {
+	      super(s);
+	   }
+	}
